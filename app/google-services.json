@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "628599358128",
+    "firebase_url": "https://chatpit-80582.firebaseio.com",
+    "project_id": "chatpit-80582",
+    "storage_bucket": "chatpit-80582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628599358128:android:ffa599cc2b769e34",
+        "android_client_info": {
+          "package_name": "com.chexample.chatpit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628599358128-84ht7p214pvglg6rb9qqjjb97alib3df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chexample.chatpit",
+            "certificate_hash": "8591d0975c3fff7914a13ce0fd47ae6dea8270f4"
+          }
+        },
+        {
+          "client_id": "628599358128-9f49d8ck85t12p0d5bf28hol6dsdnasu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chexample.chatpit",
+            "certificate_hash": "c4aab769e6a46c99dc984352c240ea155bd19348"
+          }
+        },
+        {
+          "client_id": "628599358128-shp4kfnon4uqfk57152bampnn97p6jaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYqaSrW1zWd2-fFcwRRQjbPJp19Xhmwp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628599358128-shp4kfnon4uqfk57152bampnn97p6jaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-5565078232945269~8884904375"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1553357430128)
++++ app/src/main/res/layout/activity_main.xml	(date 1553357430128)
+@@ -1,6 +1,5 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:ads="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/main_layout"
+     android:layout_width="match_parent"
+@@ -24,16 +23,6 @@
+             android:text="@string/phone_title_text"
+             android:theme="@style/ThemeOverlay.MyTitleText" />
+ 
+-        <com.hbb20.CountryCodePicker
+-            android:id="@+id/ccp"
+-            app:ccp_autoDetectCountry="true"
+-            app:ccp_countryAutoDetectionPref="LOCALE_SIM"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            app:ccp_showFullName="true"
+-            app:ccp_showPhoneCode="false"
+-            app:ccp_showNameCode="false"/>
+-
+         <TextView
+             android:id="@+id/status"
+             style="@style/ThemeOverlay.MyTextDetail"
+@@ -51,7 +40,6 @@
+             android:hint="@string/hint_phone_number"
+             android:inputType="phone" />
+ 
+-
+         <EditText
+             android:id="@+id/code"
+             android:layout_width="wrap_content"
